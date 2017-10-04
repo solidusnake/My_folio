@@ -1,0 +1,112 @@
+.fa {
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+}
+.fa-github:before {
+	font-size: 40px;
+}
+.fa-envelope:before{
+	font-size: 40px;
+}
+
+
+/*version mobile*/
+/*@media only screen and (max-device-width:480px) {
+ body {
+
+width: auto;
+height: auto;
+ }
+
+ h1 {
+	 font-size:200%;
+ }
+
+
+
+ .scroll {
+ 	text-align: center;
+ }
+
+
+
+
+
+ .colonne1 {
+   width:19000px;
+   height:1200px;
+   background-color:#87BBD8;
+
+   margin-top: 100px;
+   margin-left: 60px;
+  }
+
+
+
+ .colonne2
+ {
+ width:1500px;
+ height:777px;
+ background-color:#F36D69;
+
+ margin-top: 100px;
+ margin-right: 60px;
+ margin-left: 700px;
+ margin-top: 200px;
+ }
+
+
+ .colonne3
+ {
+ width:1300px;
+ height:1300px;
+ background-color:#242F61;
+
+ margin-top: 100px;
+ margin-left: 60px;
+ }
+
+
+ .colonne4
+ {
+ width:1300px;
+ height:1554px;
+ background-color:#87BBD8;
+
+ margin-top: 100px;
+ margin-right: 60px;
+ margin-left: 700px;
+ }
+
+
+ #image {
+   width: 600px;
+   height: 700px;
+   background-image: url('../img/projet_1.png');
+   background-size: 200%;
+   background-repeat: no-repeat;
+ }
+ #image1 {
+   width: 485px;
+   height: 360px;
+   background-image: url('../img/projet_2.png');
+   background-size: 120%;
+   background-repeat: no-repeat;
+ }
+ #image2 {
+   width: 485px;
+   height: 360px;
+   background-image: url('../img/projet_3.png');
+   background-size: 120%;
+   background-repeat: no-repeat;
+ }
+ #image3 {
+   width: 485px;
+   height: 360px;
+   background-image: url('../img/projet_4.png');
+   background-size: 120%;
+   background-repeat: no-repeat;
+ }
+
+}*/

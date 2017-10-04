@@ -1,20 +1,25 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
-import FirstRoute from '@/components/FirstRoute'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+import Projet from '@/components/Projet'
 Vue.use(Router)
-
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'Hello',
-      component: Hello
+      path: '/Header',
+      name: 'Header',
+      component: Header
     },
     {
-      path: '/firstroute/:name',
-      name: 'FirstRoute',
-      component: FirstRoute
+      path: '/',
+      name: 'Footer',
+      component: Footer
+    },
+    {
+      path: '/projet',
+      name: 'Projet',
+      component: Projet
     }
   ]
 })
