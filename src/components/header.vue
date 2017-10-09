@@ -1,7 +1,6 @@
 <template>
   <div class="header">
      <header>
-      
       <nav class="navbar">
         <ul>
           <span class="name">Sofiane Lakhneche</span>
@@ -11,17 +10,26 @@
         </ul>
       </nav>
   </header>
+
+<div id="example-3">
+  <button v-on:click="say('salut')">Dire salut</button>
+  <button v-on:click="say('quoi')">Dire quoi</button>
+</div>
 </div>
 </template>
-
-<script>
-export default {
-  name: 'hello',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+<!--if (window.addEventListener) {
+  var kkeys
+  kkeys.konami = [ '38,38,40,40,37,39,37,39,66,65' ]
+  window.addEventListener('keydown', function (e) {
+    kkeys.push(e.keyCode)
+  if (kkeys.toString().indexOf(kkeys) >= 0) {
+    alert('Kommunauty.fr, ça roxx de la chaise a bascule')
+    window.location = 'http://kommunauty.fr'
   }
+  }, true)
+}--><script>
+export default {
+  name: 'Header'
 }
 </script>
 
@@ -55,15 +63,9 @@ nav a {
 
 }
 .name {
-margin-right: 300px;
+margin-right: 10%;
 color: white;
 }
-
-
-
-
-
-
 h1, h2 {
   font-weight: normal;
 }

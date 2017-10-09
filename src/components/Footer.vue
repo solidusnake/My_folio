@@ -1,19 +1,10 @@
 <template>
   <div class="footer">
-     <footer><p class="textefooter">© Sofiane Lakhneche 2017 Design by<a href="http://jant.fr/"> Jantana Hennard</a></p></footer>
+     <footer><p class="textefooter">© Sofiane Lakhneche 2017 Design by<a href="http://jant.fr/">Jantana Hennard</a></p></footer>
   </div>
 </template>
 
-<!--<script>
-export default {
-  name: 'footer',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
-}
-</script>-->
+
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
